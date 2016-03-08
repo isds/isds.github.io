@@ -1,0 +1,1 @@
+alert("Testing js recourses.")
