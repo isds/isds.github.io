@@ -1,0 +1,44 @@
+.container {
+    background-color: #f9f9f9;
+}
+
+.header-name {
+    font-size: 6em;
+    font-family: serif;
+    font-weight: bold;
+    color: #040151;
+}
+
+.header-information {
+    text-align: right;
+}
+.header-information a{
+    color: #000;
+}
+
+.company-name{
+    color: #000289;
+    font-weight: bold;
+}
+
+
+.topic {
+    color: #040151;
+    text-align: center;
+
+}
+
+.topic h4 {
+    font-weight: bold;
+}
+
+.topic-content {
+    border-left: solid;
+    border-width: 5px;
+    border-color: #800080;
+}
+
+.icon{
+    max-width: 1em;
+    height: auto;
+}
