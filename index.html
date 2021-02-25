@@ -10,24 +10,25 @@
     <script type="text/javascript" src="scripts/script.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <title>Ítalo Silva de Souza</title>
+    <title>Ítalo Souza</title>
 </head>
 <body>
     <div class="container">
-        <br><br>
+        <br>
         <div class="row"> <!-- HEADER -->
             <div class="col-9">
-                <h1 class="header-name">Ítalo Souza</h1>
+                <h1 class="header-name">Ítalo Silva de Souza</h1>
             </div>
             <div class="col-3">
                 <p class="header-information">
-                    25 anos <br>
+                    <span id="idade"></span> anos <br>
                     <a href="https://www.google.com.br/maps/place/Fortaleza+-+CE/" target="_blank">Fortaleza, Ceará, Brasil</a> <br>
                     <a href="mailto:italosilvadesouza@gmail.com">italosilvadesouza@gmail.com</a> <br>
                     <img src="images/WhatsApp_icon.png" class="icon" > <a href="tel:+55085987490274">+55 085 98749-0274</a> <br>
                 </p>
             </div>
         </div>
+        <br><br>
         <div class="row align-items-center"> <!-- Formação Academica -->
             <div class="col-2 topic">
                 <h4>Formação Acadêmica</h4>
@@ -38,7 +39,7 @@
             </div>
         </div>
         <br>
-
+        <br>
         <div class="row align-items-center"> <!-- Experiência Profissional -->
             <div class="col-2 topic">
                 <h4>Experiência Profissional</h4>
@@ -95,23 +96,27 @@
             </div>
         </div>
         <br>
-
+        <br>
         <div class="row align-items-center"> <!-- Habilidades -->
             <div class="col-2 topic">
                 <h4>Habilidades</h4>
             </div>
             <div class="col topic-content">
                 <p>
-                    Ferramentas do Pacote MS Office. <br>
-                    HTML5, CSS3, JavaScript, ReactJS, C, VBA, Java(JSF, Servlets, JSP), Python(Django, Django Rest Framework, SQL ALchemy, Flask e outros frameworks Python).<br>
-                    Git. <br>
-                    Bancos de Dados: MS Access, Informix, MySql, PostgreSQL, MongoDB, Amazon Redshift, Amazon RDS e Aerospike. <br>
-                    Inglês: intermediário(boa leitura e escrita; conversação intermediária).<br>
+                    Ferramentas do Pacote MS Office;<br>
+                    HTML5, CSS3, JavaScript, ReactJS, C, VBA, Java(JSF, Servlets, JSP), Python(Django, Django Rest Framework, SQL ALchemy, Flask e outros frameworks Python);<br>
+                    Git; <br>
+                    Bancos de Dados: MS Access, Informix, MySql, PostgreSQL, MongoDB, Amazon Redshift, Amazon RDS e Aerospike; <br>
+                    Inglês: intermediário(boa leitura e escrita; conversação intermediária);<br>
+                    Jenkins, Gitlab CI; <br>
+                    Padrões de Projetos;<br>
+                    RabbitMQ;<br>
+                    Docker, Vagrant;<br>
                 </p>
             </div>
         </div>
         <br>
-        
+        <br>
         <div class="row align-items-center"> <!-- Outras Atividades -->
             <div class="col-2 topic">
                 <h4>Outras Atividades</h4>
@@ -125,5 +130,8 @@
         <br>
         
     </div>
+  <script>
+    setAge();  
+</script>
 </body>
 </html>
